@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	font-family: Roboto;
+}
+
+nav {
+	background-color: black;
+	position: fixed;
+	width: 1440px;
+	top: 0;
+	z-index: 100;
+}
+
+.nav__inner {
+	display: flex;
+	height: 75px;
+}
+
+.logo {
+	height: 30px;
+	margin: auto 0;
+	margin-top: 23px;
+}
+
+.links {
+	display: flex;
+	margin: auto;
+}
+
+.link {
+	color: white;
+	margin-right: 25px;
+}
+
+.button {
+	font-size: 20px;
+	font-weight: 700;
+	width: 200px;
+}
+
+.desc {
+	opacity: 0.6;
+}
+
+.products {
+	margin-top: 100px;
+	font-family: Roboto;
+}
+
+.products h1,
+.products p {
+	color: white;
+}
+
+.products p {
+	padding: 10px 0;
+}
+
+.products .unityPro h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.products h1 {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+#sectionOne,
+#sectionTwo,
+#sectionThree {
+	display: flex;
+	justify-content: space-around;
+}
+
+.unityPro,
+.plasticScm,
+.unityAds,
+.unityTeams,
+.unityEnterprise,
+.unityLearn,
+.assetStore,
+.documentation {
+	padding-top: 20px;
+	background-color: #000;
+	border-radius: 25px;
+}
+
+.unityPro {
+	width: 60%;
+	height: 450px;
+	padding-left: 50px;
+	padding-top: 30px;
+
+}
+
+.plasticScm {
+	right: 0px;
+	width: 25%;
+	height: 450px;
+	padding-left: 25px;
+}
+
+.unityAds,
+.unityTeams,
+.unityEnterprise {
+	text-align: center;
+	margin-top: 50px;
+	width: 25%;
+	height: 200px;
+}
+
+.unityAds button,
+.unityTeams button,
+.unityEnterprise button {
+	margin-top: 25px;
+}
+
+.unityLearn,
+.assetStore,
+.documentation {
+	padding-left: 20px;
+	margin-top: 50px;
+	width: 27%;
+	height: 600px;
+	margin-bottom: 100px;
+}
+
+button {
+	font-size: 30;
+	border: none;
+	background-color: #2196F3FF;
+	color: white;
+	border-radius: 10px;
+}
+
+.unityPro button {
+	height: 50px;
+}
